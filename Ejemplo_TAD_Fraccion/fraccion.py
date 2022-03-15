@@ -30,7 +30,7 @@ class Fraccion:
     def __str__(self):
         cad = str(self.num)
         if self.den != 1:
-            cad += "/"+str(self.den)
+            cad += "/"+str(self.den)    
         return cad
         
     def __add__(self,otraFraccion):
@@ -38,3 +38,4 @@ class Fraccion:
         nuevoDen = self.den * otraFraccion.den
         comun = mcd(nuevoNum,nuevoDen) #algoritmo de Euclides
         return Fraccion(nuevoNum//comun,nuevoDen//comun)
+    

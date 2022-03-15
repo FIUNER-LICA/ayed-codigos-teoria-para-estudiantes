@@ -13,10 +13,13 @@ f1 = Fraccion(1,4)
 f2 = Fraccion(1,2)
 
 f3 = f1 + f2
+# f3 = f1.__add__(f2)
 
 f1 = Fraccion(10,4)
 f2 = Fraccion(1,2)
 
-f3 = f1 + f2
+f4 = f1 + f2
 
-print(f3)
+print('f3 =', f3)
+print('f4 =', f4)
+
