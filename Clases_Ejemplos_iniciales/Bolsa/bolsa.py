@@ -17,12 +17,12 @@ class Bolsa:
         self.agregar(x)
         
     def __str__(self):
-        self.str_contenido = ''
+        str_contenido = ''
 
         for value in self.elementos:
-            self.str_contenido +=  ' ' + str(value)
+            str_contenido +=  ' ' + str(value)
     
-        return self.str_contenido
+        return str_contenido
 
     def __del__(self):
         pass    # para literalmente "no hacer nada"
