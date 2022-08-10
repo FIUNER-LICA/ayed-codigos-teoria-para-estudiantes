@@ -3,7 +3,7 @@
 # El nombre correcto del módulo debería ser "prueba_unitaria.py" y no "main.py". Se deja este nombre porque la plataforma ReplIt corre los programas a partir del módulo "main.py".
 
 import unittest
-import modulos.alg_comparacion as alg
+import alg_comparacion as alg
 
 class Test_Alg_Comparacion(unittest.TestCase):
     
@@ -12,7 +12,6 @@ class Test_Alg_Comparacion(unittest.TestCase):
         # todos los tests.
         self.una_lista = [1, 2, 3, 3, 4]
         self.otra_lista = [1, 2, 4, 0, 0]
-        
         # print("Se corre setUp...")
     
     def test_alg_mayor_numbers(self):
