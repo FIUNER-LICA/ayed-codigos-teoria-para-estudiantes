@@ -36,6 +36,15 @@ plt.plot(rs, tiempos)
 plt.title('Tiempo versus cantidad de elementos en la combinación')
 plt.xlabel('r')
 plt.ylabel('tiempos ($s$)')
+axes = plt.gca() # se obtienen los ejes actuales
+axes.set_xticks([tick for tick in range(1, n+1)])
+
+# Marcador
+t_max = max(tiempos)
+pos_r_max = tiempos.index(t_max) # no es la forma más eficiente
+plt.scatter(rs[pos_r_max], 1.05*t_max, color='r', marker=7, s=100)
+
+# print(r_max, t_max)
 
 # modificar fuente
 # fuente = {'family': 'normal',  'weight': 'bold',  'size': 20}
