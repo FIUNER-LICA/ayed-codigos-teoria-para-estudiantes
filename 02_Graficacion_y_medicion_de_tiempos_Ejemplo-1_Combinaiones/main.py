@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Tue Mar 15 13:02:03 2022
@@ -44,7 +43,7 @@ t_max = max(tiempos)
 pos_r_max = tiempos.index(t_max) # no es la forma más eficiente
 plt.scatter(rs[pos_r_max], 1.05*t_max, color='r', marker=7, s=100)
 
-# print(r_max, t_max)
+print(pos_r_max, rs[pos_r_max], round(t_max, 3))
 
 # modificar fuente
 # fuente = {'family': 'normal',  'weight': 'bold',  'size': 20}
@@ -55,6 +54,5 @@ plt.savefig('img/grafico_01.png')
 
 # combinaciones = list(itertools.combinations([1, 2, 3, 4], 3))
 # permutaciones = list(itertools.permutations([1, 2, 3, 4], 3))
-
 
 
