@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Tue Mar 15 14:12:26 2022
@@ -58,7 +57,7 @@ print()
 print('instancia_1: ', instancia_1)
 print('instancia_2: ', instancia_2)
 
-# instancia_1.campo_de_clase_1 = 1111  
+# instancia_1.campo_nuevo = 1111  
    # OJO! Acabamos de crear un nuevo campo! No queremos eso...
 
 MiClase.campo_de_clase_1 = 1111

@@ -1,11 +1,9 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Tue Mar 15 14:08:39 2022
 
 @author: jinsfran
 """
-
 
 from persona import Persona
 
@@ -53,6 +51,6 @@ print(alumno_1)
 
 
 print('Cantidad personas:', Persona.contador)
-
+print('Cantidad personas:', AlumnoFIUNER.contador)
 
 
