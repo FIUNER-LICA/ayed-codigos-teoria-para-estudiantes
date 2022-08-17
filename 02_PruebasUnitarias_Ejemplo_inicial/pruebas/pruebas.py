@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# El nombre correcto del módulo debería ser "prueba_unitaria.py" y no "main.py". Se deja este nombre porque la plataforma ReplIt corre los programas a partir del módulo "main.py".
-
 import unittest
 import modulos.alg_comparacion as alg
+
 
 class Test_Alg_Comparacion(unittest.TestCase):
     
@@ -25,7 +24,7 @@ class Test_Alg_Comparacion(unittest.TestCase):
         self.assertEqual(resultado, self.otra_lista)
     
     def tearDown(self):
-        # print("Se corre tearDown...")
+        # print("Se corre tearDown...\n")
         pass
     
 if __name__ == "__main__":
