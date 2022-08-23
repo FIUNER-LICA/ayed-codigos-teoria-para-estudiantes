@@ -20,6 +20,8 @@ f2 = Fraccion(1,2)
 
 f4 = f1 + f2
 
+print('f1 =', f1)
+print('f2 =', f2)
 print('f3 =', f3)
 print('f4 =', f4)
 

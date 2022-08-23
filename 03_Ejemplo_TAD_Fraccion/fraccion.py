@@ -13,7 +13,7 @@ def mcd(a, b):
     a : Entero positivo.
     b : Entero positivo.
     Returns
-    -------
+                    -------
     a : Entero positivo.
         Es el máximo común divisor calculado.
     '''
@@ -24,8 +24,9 @@ def mcd(a, b):
 
 class Fraccion:
     def __init__(self,arriba,abajo):
-        self.num = arriba
-        self.den = abajo
+        comun = mcd(arriba, abajo)
+        self.num = arriba//comun
+        self.den = abajo//comun
         
     def __str__(self):
         cad = str(self.num)
