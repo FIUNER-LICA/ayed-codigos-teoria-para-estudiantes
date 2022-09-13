@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 def ordenamientoBurbuja(unaLista):
-    for numPasada in range(len(unaLista)-1,0,-1):
-        for i in range(numPasada):
+    for extremo in range(len(unaLista)-1,0,-1):
+        for i in range(extremo)
             if unaLista[i]>unaLista[i+1]:
                 temp = unaLista[i]
                 unaLista[i] = unaLista[i+1]
